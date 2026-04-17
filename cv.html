@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manga Anil - CV</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #081b29 0%, #0a2e3d 100%);
+            color: #333;
+            padding: 40px 20px;
+        }
+
+        .cv-container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: white;
+            padding: 50px;
+            box-shadow: 0 0 40px rgba(14, 239, 255, 0.3);
+            border-radius: 10px;
+        }
+
+        .header {
+            text-align: center;
+            border-bottom: 3px solid #0ef;
+            padding-bottom: 30px;
+            margin-bottom: 30px;
+        }
+
+        .header h1 {
+            font-size: 42px;
+            color: #081b29;
+            margin-bottom: 10px;
+        }
+
+        .header h2 {
+            font-size: 22px;
+            color: #0ef;
+            font-weight: 500;
+        }
+
+        .contact-info {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            margin-top: 15px;
+            flex-wrap: wrap;
+        }
+
+        .contact-info span {
+            font-size: 15px;
+            color: #555;
+        }
+
+        .section {
+            margin-bottom: 30px;
+        }
+
+        .section-title {
+            font-size: 24px;
+            color: #081b29;
+            border-bottom: 2px solid #0ef;
+            padding-bottom: 8px;
+            margin-bottom: 20px;
+            font-weight: 600;
+        }
+
+        .content {
+            line-height: 1.8;
+            font-size: 15px;
+            color: #555;
+        }
+
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+        }
+
+        .skill-category h3 {
+            font-size: 18px;
+            color: #081b29;
+            margin-bottom: 10px;
+        }
+
+        .skill-item {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 8px;
+            padding: 5px 10px;
+            background: #f5f5f5;
+            border-radius: 5px;
+        }
+
+        .skill-name {
+            font-weight: 500;
+        }
+
+        .skill-percent {
+            color: #0ef;
+            font-weight: 600;
+        }
+
+        .project {
+            margin-bottom: 20px;
+            padding: 15px;
+            background: #f9f9f9;
+            border-left: 3px solid #0ef;
+            border-radius: 5px;
+        }
+
+        .project h3 {
+            font-size: 18px;
+            color: #081b29;
+            margin-bottom: 8px;
+        }
+
+        .project p {
+            margin-bottom: 5px;
+        }
+
+        .technologies {
+            font-size: 14px;
+            color: #0ef;
+            font-weight: 600;
+            margin-top: 8px;
+        }
+
+        .placeholder {
+            color: #999;
+            font-style: italic;
+        }
+
+        .download-btn {
+            text-align: center;
+            margin-top: 40px;
+            padding-top: 30px;
+            border-top: 2px solid #eee;
+        }
+
+        .download-btn a {
+            display: inline-block;
+            padding: 15px 40px;
+            background: linear-gradient(135deg, #0ef, #00d4ff);
+            color: #081b29;
+            text-decoration: none;
+            border-radius: 50px;
+            font-weight: 600;
+            font-size: 16px;
+            transition: all 0.3s ease;
+        }
+
+        .download-btn a:hover {
+            box-shadow: 0 5px 30px rgba(14, 239, 255, 0.5);
+            transform: translateY(-3px);
+        }
+
+        @media (max-width: 768px) {
+            .cv-container {
+                padding: 30px 20px;
+            }
+
+            .header h1 {
+                font-size: 32px;
+            }
+
+            .skills-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .contact-info {
+                flex-direction: column;
+                gap: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="cv-container">
+        <!-- Header -->
+        <div class="header">
+            <h1>MANGA ANIL</h1>
+            <h2>Full Stack Developer & ML Engineer</h2>
+            <div class="contact-info">
+                <span>📧 anilmanga970@gmail.com</span>
+                <span>📱 7386358330</span>
+                <span>📍 Warangal, India</span>
+            </div>
+        </div>
+
+        <!-- Professional Summary -->
+        <div class="section">
+            <h2 class="section-title">PROFESSIONAL SUMMARY</h2>
+            <p class="content">
+                Passionate Full Stack Developer and Machine Learning Engineer with expertise in building modern web applications and intelligent systems. Strong foundation in both frontend and backend technologies, specializing in creating scalable, efficient, and user-friendly applications. Dedicated to exploring innovative solutions that combine web technologies with AI and machine learning.
+            </p>
+        </div>
+
+        <!-- Technical Skills -->
+        <div class="section">
+            <h2 class="section-title">TECHNICAL SKILLS</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Frontend Development</h3>
+                    <div class="skill-item">
+                        <span class="skill-name">HTML5</span>
+                        <span class="skill-percent">95%</span>
+                    </div>
+                    <div class="skill-item">
+                        <span class="skill-name">CSS3</span>
+                        <span class="skill-percent">90%</span>
+                    </div>
+                    <div class="skill-item">
+                        <span class="skill-name">JavaScript</span>
+                        <span class="skill-percent">85%</span>
+                    </div>
+                    <div class="skill-item">
+                        <span class="skill-name">React.js</span>
+                        <span class="skill-percent">82%</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3>Backend Development</h3>
+                    <div class="skill-item">
+                        <span class="skill-name">Node.js</span>
+                        <span class="skill-percent">78%</span>
+                    </div>
+                    <div class="skill-item">
+                        <span class="skill-name">Python</span>
+                        <span class="skill-percent">90%</span>
+                    </div>
+                    <div class="skill-item">
+                        <span class="skill-name">MongoDB</span>
+                        <span class="skill-percent">75%</span>
+                    </div>
+                    <div class="skill-item">
+                        <span class="skill-name">SQL</span>
+                        <span class="skill-percent">80%</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3>Machine Learning & AI</h3>
+                    <div class="skill-item">
+                        <span class="skill-name">Machine Learning</span>
+                        <span class="skill-percent">85%</span>
+                    </div>
+                    <div class="skill-item">
+                        <span class="skill-name">Deep Learning</span>
+                        <span class="skill-percent">78%</span>
+                    </div>
+                    <div class="skill-item">
+                        <span class="skill-name">Computer Vision</span>
+                        <span class="skill-percent">72%</span>
+                    </div>
+                    <div class="skill-item">
+                        <span class="skill-name">NLP</span>
+                        <span class="skill-percent">70%</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3>Tools & Technologies</h3>
+                    <div class="skill-item">
+                        <span class="skill-name">Git/GitHub</span>
+                        <span class="skill-percent">85%</span>
+                    </div>
+                    <div class="skill-item">
+                        <span class="skill-name">Docker</span>
+                        <span class="skill-percent">65%</span>
+                    </div>
+                    <div class="skill-item">
+                        <span class="skill-name">VS Code</span>
+                        <span class="skill-percent">90%</span>
+                    </div>
+                    <div class="skill-item">
+                        <span class="skill-name">AWS</span>
+                        <span class="skill-percent">68%</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Education -->
+        <div class="section">
+            <h2 class="section-title">EDUCATION</h2>
+            <p class="content placeholder">
+                [Your Degree]<br>
+                [Your University/College Name]<br>
+                [Year of Start] - [Year of End/Expected]<br><br>
+                <strong>Relevant Coursework:</strong><br>
+                • Computer Science Fundamentals<br>
+                • Web Development<br>
+                • Machine Learning<br>
+                • Data Structures & Algorithms<br>
+                • Database Management Systems
+            </p>
+        </div>
+
+        <!-- Projects -->
+        <div class="section">
+            <h2 class="section-title">PROJECTS</h2>
+            
+            <div class="project">
+                <h3>1. ML Prediction System</h3>
+                <p>Developed a machine learning model that predicts outcomes using advanced algorithms and data analysis techniques.</p>
+                <p class="technologies">Technologies: Python, TensorFlow, Flask</p>
+            </div>
+
+            <div class="project">
+                <h3>2. E-Commerce Platform</h3>
+                <p>Built full-stack e-commerce application with user authentication, payment integration, and admin dashboard.</p>
+                <p class="technologies">Technologies: React, Node.js, MongoDB</p>
+            </div>
+
+            <div class="project">
+                <h3>3. AI Chat Application</h3>
+                <p>Created intelligent chatbot powered by NLP with real-time messaging and context-aware responses.</p>
+                <p class="technologies">Technologies: Python, NLP, React</p>
+            </div>
+        </div>
+
+        <!-- Experience -->
+        <div class="section">
+            <h2 class="section-title">INTERNSHIPS/EXPERIENCE</h2>
+            <p class="content placeholder">
+                <strong>[Position Title]</strong><br>
+                [Company Name]<br>
+                [Duration]<br><br>
+                • [Key responsibility/achievement]<br>
+                • [Key responsibility/achievement]<br>
+                • [Key responsibility/achievement]
+            </p>
+        </div>
+
+        <!-- Certifications -->
+        <div class="section">
+            <h2 class="section-title">CERTIFICATIONS</h2>
+            <p class="content placeholder">
+                • [Certification Name] - [Issuing Organization] - [Year]<br>
+                • [Certification Name] - [Issuing Organization] - [Year]
+            </p>
+        </div>
+
+        <!-- Languages -->
+        <div class="section">
+            <h2 class="section-title">LANGUAGES</h2>
+            <p class="content">
+                • English - Professional<br>
+                • Hindi - Native<br>
+                • Telugu - Native
+            </p>
+        </div>
+
+        <!-- Interests -->
+        <div class="section">
+            <h2 class="section-title">INTERESTS</h2>
+            <p class="content">
+                • Machine Learning Research<br>
+                • Web Development<br>
+                • Open Source Contribution<br>
+                • Technical Blog Writing<br>
+                • Problem Solving
+            </p>
+        </div>
+
+        <!-- Download Button -->
+        <div class="download-btn">
+            <a href="cv.txt" download>📥 Download CV as Text</a>
+        </div>
+    </div>
+</body>
+</html>

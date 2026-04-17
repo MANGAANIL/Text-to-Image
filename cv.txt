@@ -1,0 +1,117 @@
+MANGA ANIL
+Full Stack Developer & ML Engineer
+========================================
+
+CONTACT INFORMATION
+-------------------
+Email: anilmanga970@gmail.com
+Phone: 7386358330
+Location: Warangal, India
+
+
+PROFESSIONAL SUMMARY
+--------------------
+Passionate Full Stack Developer and Machine Learning Engineer with expertise in building modern web applications and intelligent systems. Strong foundation in both frontend and backend technologies, specializing in creating scalable, efficient, and user-friendly applications. Dedicated to exploring innovative solutions that combine web technologies with AI and machine learning.
+
+
+TECHNICAL SKILLS
+----------------
+Frontend Development:
+• HTML5 - 95%
+• CSS3 - 90%
+• JavaScript - 85%
+• React.js - 82%
+
+Backend Development:
+• Node.js - 78%
+• Python - 90%
+• MongoDB - 75%
+• SQL - 80%
+
+Machine Learning & AI:
+• Machine Learning - 85%
+• Deep Learning - 78%
+• Computer Vision - 72%
+• Natural Language Processing (NLP) - 70%
+
+Tools & Technologies:
+• Git/GitHub - 85%
+• Docker - 65%
+• VS Code - 90%
+• AWS - 68%
+
+
+EDUCATION
+---------
+[Your Degree]
+[Your University/College Name]
+[Year of Start] - [Year of End/Expected]
+
+Relevant Coursework:
+• Computer Science Fundamentals
+• Web Development
+• Machine Learning
+• Data Structures & Algorithms
+• Database Management Systems
+
+
+PROJECTS
+--------
+1. ML Prediction System
+   • Developed a machine learning model that predicts outcomes using advanced algorithms
+   • Technologies: Python, TensorFlow, Flask
+   • Implemented data preprocessing, model training, and deployment
+
+2. E-Commerce Platform
+   • Built full-stack e-commerce application with user authentication
+   • Technologies: React, Node.js, MongoDB
+   • Integrated payment gateway and admin dashboard
+
+3. AI Chat Application
+   • Created intelligent chatbot powered by NLP
+   • Technologies: Python, NLP, React
+   • Real-time messaging with context-aware responses
+
+
+INTERNSHIPS/EXPERIENCE
+----------------------
+[Position Title]
+[Company Name]
+[Duration]
+
+• [Key responsibility/achievement]
+• [Key responsibility/achievement]
+• [Key responsibility/achievement]
+
+
+CERTIFICATIONS
+--------------
+• [Certification Name] - [Issuing Organization] - [Year]
+• [Certification Name] - [Issuing Organization] - [Year]
+
+
+LANGUAGES
+---------
+• English - Professional
+• Hindi - Native
+• Telugu - Native
+
+
+INTERESTS
+---------
+• Machine Learning Research
+• Web Development
+• Open Source Contribution
+• Technical Blog Writing
+• Problem Solving
+
+
+DECLARATION
+-----------
+I hereby declare that the information provided above is true to the best of my knowledge.
+
+Date: [Current Date]
+Place: Warangal, India
+
+Signature: Manga Anil
+========================================
